@@ -42,7 +42,7 @@ export default function Footer() {
              </div>
         </div>
 
-        <LoadScript googleMapsApiKey="AIzaSyBaJHTbsdyymOwaSwrmzxrjg2rJKSyEDXg">
+        <LoadScript googleMapsApiKey="вставьте ваш API-kei">
 
           <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={17}> 
              < Marker position={markerPosition} />
