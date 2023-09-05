@@ -1,0 +1,36 @@
+.container {
+  width: 1440px;
+  margin: 40px auto;
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px #339933;
+  color: #339933;
+}
+
+.container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 80px;
+  color: #339933; 
+}
+
+.products_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+.sort_container {
+  display: flex;
+  align-items: center;
+  margin: 40 auto;
+  width: 1378px;
+  margin-bottom: 45px;
+  background-color: #d4f4d4;
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  color: #339933; 
+}

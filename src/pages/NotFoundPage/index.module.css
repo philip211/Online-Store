@@ -1,0 +1,17 @@
+.error {
+    width: 1440px;
+    height: 625px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #02f902, #10c810, #297c29, #456d45);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 100%;
+    animation: textShift 4s linear infinite;
+  
+   
+    border: 2px solid #339933;
+    box-shadow: 0 0 10px rgba(51, 153, 51, 0.5);
+    font-weight: bold; 
+    text-transform: uppercase; 
+  }
+  

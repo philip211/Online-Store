@@ -1,0 +1,56 @@
+.container{
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    margin:  0 auto;
+    width: 1378px;
+}
+
+.container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding-right: 96px;
+    margin-top: 50px;
+    color: #339933;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.discount_container {
+    width: 1070px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: left;
+    gap: 13px;
+    margin-top: 21px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px #339933;
+}
+
+/* Добавьте стили для каждого дочернего элемента (предположим, у вас есть элементы с классом .discount_item) */
+
+.discount_item {
+    background-color: #f0f0f0; /* Цвет фона элемента */
+    border-radius: 5px; /* Закругление углов элемента */
+    padding: 15px; /* Внутренний отступ для контента */
+    text-align: center; /* Выравнивание текста по центру */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Тень для элементов */
+}
+
+/* Пример стилей для заголовка внутри элемента */
+
+.discount_item h2 {
+    font-size: 24px; /* Размер шрифта */
+    color: #339933; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Пример стилей для описания внутри элемента */
+
+.discount_item p {
+    font-size: 16px; /* Размер шрифта */
+    color: #333; /* Цвет текста */
+}
